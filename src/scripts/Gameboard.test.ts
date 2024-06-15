@@ -2,9 +2,6 @@ import { expect, test } from 'vitest'
 import { GameBoard } from './Gameboard'
 import { Ship } from './Ship';
 
-test('length getter', () => {
-    let gameboard = new GameBoard(4);
-})
 
 test('place ship at 0, 0 horizontally and within length of board', () => {
     let gameboard = new GameBoard(4);
